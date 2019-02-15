@@ -206,8 +206,8 @@
                     .then(function (res) {
                         console.log("Checking compatibility...");
                         console.log("person: " + res.name);
-                        $("#modal-name").append(`Your closest match is: ${res.name}`);
-                        $("#modal-pic").append(res.photo);
+                        $("#modal-name").html(`Your closest match is: ${res.name}`);
+                        $("#modal-pic").html(res.photo);
                         $("#modal").modal('show');
                     })
 
