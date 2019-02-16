@@ -1,0 +1,51 @@
+body{
+    background: url("../images/skewed_print.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+#findJumbo{
+    background: rgb(56, 55, 55);
+    color: #dddddd;
+    overflow: hidden
+}
+
+.surveyCont{
+    background: rgb(56, 55, 55);
+    color: #dddddd;
+    overflow: hidden
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background-color: rgb(103, 16, 10);
+}
+
+.question{
+    margin-top: 20px;
+}
+
+.submitBtn{
+    float: right;
+    background-color: rgb(103, 16, 10);
+    border-color: rgb(103, 16, 10);
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.submitBtn:hover{
+    background-color: rgb(110, 33, 27);
+    border-color: rgb(110, 33, 27)
+}
+
+.takeBtn{
+    float: right;
+    margin-top: 50px;
+    background-color: rgb(103, 16, 10);
+    border-color: rgb(103, 16, 10)
+}
+
+.takeBtn:hover{
+    background-color: rgb(110, 33, 27);
+    border-color: rgb(110, 33, 27)
+}

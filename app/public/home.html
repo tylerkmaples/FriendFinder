@@ -6,30 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Find A Friend!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron" id="findJumbo">
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <h1>Find A Jiu-Jitsu Friend!</h1>
+                    <h1 style="font-size: 50px">Find A Friend!</h1>
                 </div>
                 <div class="col-md-4"></div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-6">
-                    <h3>Answer a few basic questions.</h3>
-                    <h3>Then find a friend to roll with that has the greatest compatibility!</h3>
+                <div class="col">
+                    <h2 style="line-height: 55px">Answer a few basic questions to find a friend with the greatest
+                        compatibility!</h2>
                 </div>
             </div>
-            <a class="btn btn-primary btn-lg" href="/survey" role="button"><i class="fas fa-table"></i> Take the Test!</a>
+            <a class="btn btn-primary btn-lg takeBtn" href="/survey" role="button"><i class="fas fa-table"></i> Take the
+                Test!</a>
         </div>
-        <a href="/api/friends">API Friends List</a> | <a href="https://github.com/tylerkmaples/FriendFinder" target="blank">Github Repository</a>
+        <a href="/api/friends" target="blank">API Friends List</a> | <a
+            href="https://github.com/tylerkmaples/FriendFinder" target="blank">Github Repository</a>
     </div>
 
 </body>

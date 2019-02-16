@@ -8,28 +8,29 @@
     <title>Friend Survey</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h2>Survey Questions</h2>
+    <!-- CONTAINER THAT HOLDS THE QUESTIONS -->
+    <div class="container surveyCont">
+        <h2 style="text-align: center">Survey Questions</h2>
 
-        <hr>
-
-        <h3>About You</h3>
+        <h3 style="text-align: center; margin-top: 20px;">About You</h3>
 
         <h4>Name (Required)</h4>
         <input type="text" id="name" class="form-control" required>
 
-        <h4>Link to Photo Image (Required)</h4>
+        <h4 style="margin-top: 20px">Link to Photo Image (Required)</h4>
         <input type="text" id="picture" class="form-control" required>
 
-        <hr>
+        <hr style="margin-top: 20px; height: 2px;">
 
-        <h3>Question 1</h3>
-        <h4>You enjoy the gi more than nogi.</h4>
+        <h3 class="question">Question 1</h3>
+        <h5>You enjoy the gi more than nogi.</h5>
         <select class="chosen-select" id="q1">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -37,10 +38,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 2</h3>
-        <h4>You love slapping on leg locks.</h4>
+        <h3 class="question">Question 2</h3>
+        <h5>You love slapping on leg locks.</h5>
         <select class="chosen-select" id="q2">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -48,10 +49,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 3</h3>
-        <h4>You feel the warmup before class is essential for better performance.</h4>
+        <h3 class="question">Question 3</h3>
+        <h5>You feel the warmup before class is essential for better performance.</h5>
         <select class="chosen-select" id="q3">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -59,10 +60,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 4</h3>
-        <h4>You love acai.</h4>
+        <h3 class="question">Question 4</h3>
+        <h5>You love acai.</h5>
         <select class="chosen-select" id="q4">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -70,10 +71,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 5</h3>
-        <h4>You're always looking up videos to help improve your game.</h4>
+        <h3 class="question"> Question 5</h3>
+        <h5>You're always looking up videos to help improve your game.</h5>
         <select class="chosen-select" id="q5">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -81,10 +82,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 6</h3>
-        <h4>You go to fundamental classes to sharpen your game.</h4>
+        <h3 class="question">Question 6</h3>
+        <h5>You go to fundamental classes to sharpen your game.</h5>
         <select class="chosen-select" id="q6">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -92,10 +93,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 7</h3>
-        <h4>You feel someone's performance should speak louder than their belt color.</h4>
+        <h3 class="question">Question 7</h3>
+        <h5>You feel someone's performance should speak louder than their belt color.</h5>
         <select class="chosen-select" id="q7">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -103,10 +104,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 8</h3>
-        <h4>Your main goal in training is to obtain your black belt.</h4>
+        <h3 class="question">Question 8</h3>
+        <h5>Your main goal in training is to obtain your black belt.</h5>
         <select class="chosen-select" id="q8">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -114,10 +115,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 9</h3>
-        <h4>Jiujitsu is THE superior martial art.</h4>
+        <h3 class="question">Question 9</h3>
+        <h5>Jiujitsu is THE superior martial art.</h5>
         <select class="chosen-select" id="q9">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -125,18 +126,18 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>Question 10</h3>
-        <h4>You're thinking about training while taking this.</h4>
+        <h3 class="question">Question 10</h3>
+        <h5>You're thinking about training while taking this.</h5>
         <select class="chosen-select" id="q10">
-            <option value=""></option>
+            <option value="" disabled selected>Select One</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
-        <br>
-        <input class="btn btn-primary submitBtn" type="submit" value="Submit" style="width: 100%">
+
+        <input class="btn btn-primary submitBtn" type="submit" value="Submit">
         <!-- modal -->
         <div class="modal fade" id="modal" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -157,76 +158,77 @@
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="container">
-            <a href="/api/friends">API Friends List</a> | <a href="https://github.com/tylerkmaples/FriendFinder"
-                target="blank">Github
-                Repository</a>
-        </div>
 
-        <!-- JQUERY CDN -->
-        <script src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-            </script>
-        <!-- BOOTSTRAP JS, POPPER.JS, and jQuery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous">
+    </div>
+    <div class="container">
+        <a href="/api/friends" target="blank">API Friends List
+        </a> |
+        <a href="https://github.com/tylerkmaples/FriendFinder" target="blank">Github
+            Repository
+        </a>
+    </div>
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
         </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous">
+    <!-- BOOTSTRAP JS, POPPER.JS, and jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
 
-        <!-- Personal Script to get info from survey and return friend -->
-        <script>
-            $(".submitBtn").on("click", function (event) {
-                event.preventDefault();
+    <!-- Personal Script to get info from survey and return friend -->
+    <script>
+        $(".submitBtn").on("click", function (event) {
+            event.preventDefault();
 
-                var newFriend = {
-                    name: $("#name").val().trim(),
-                    photo: $("#picture").val().trim(),
-                    scores: [
-                        $("#q1").val().trim(),
-                        $("#q2").val().trim(),
-                        $("#q3").val().trim(),
-                        $("#q4").val().trim(),
-                        $("#q5").val().trim(),
-                        $("#q6").val().trim(),
-                        $("#q7").val().trim(),
-                        $("#q8").val().trim(),
-                        $("#q9").val().trim(),
-                        $("#q10").val().trim()
-                    ]
-                };
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#picture").val().trim(),
+                scores: [
+                    $("#q1").val().trim(),
+                    $("#q2").val().trim(),
+                    $("#q3").val().trim(),
+                    $("#q4").val().trim(),
+                    $("#q5").val().trim(),
+                    $("#q6").val().trim(),
+                    $("#q7").val().trim(),
+                    $("#q8").val().trim(),
+                    $("#q9").val().trim(),
+                    $("#q10").val().trim()
+                ]
+            };
 
-                console.log(newFriend);
+            console.log(newFriend);
 
-                $.post("/api/friends", newFriend)
-                    .then(function (res) {
-                        console.log("Checking compatibility...");
-                        console.log("person: " + res.name);
-                        $("#modal-name").html(`Your closest match is: ${res.name}`);
-                        $("#modal-pic").html(res.photo);
-                        $("#modal").modal('show');
-                    })
+            $.post("/api/friends", newFriend)
+                .then(function (res) {
+                    console.log("Checking compatibility...");
+                    console.log("person: " + res.name);
+                    $("#modal-name").html(`Your closest match is: ${res.name}`);
+                    $("#modal-pic").html(res.photo);
+                    $("#modal").modal('show');
+                })
 
-                $("#name").val("");
-                $("#picture").val("");
-                $("#q1").val("");
-                $("#q2").val("");
-                $("#q3").val("");
-                $("#q4").val("");
-                $("#q5").val("");
-                $("#q6").val("");
-                $("#q7").val("");
-                $("#q8").val("");
-                $("#q9").val("");
-                $("#q10").val("");
+            $("#name").val("");
+            $("#picture").val("");
+            $("#q1").val("");
+            $("#q2").val("");
+            $("#q3").val("");
+            $("#q4").val("");
+            $("#q5").val("");
+            $("#q6").val("");
+            $("#q7").val("");
+            $("#q8").val("");
+            $("#q9").val("");
+            $("#q10").val("");
 
-            })
+        })
 
-        </script>
+    </script>
 
 </body>
 
