@@ -1,3 +1,4 @@
-# FriendFinder
+# Friend Finder
 
-test
+### A JiuJitsu Based Friend Finding Application
+![Friend Gif](./FriendGif.gif)
